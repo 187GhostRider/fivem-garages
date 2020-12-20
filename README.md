@@ -7,6 +7,8 @@
 Reworked Flux_garages / Netr_garages 
 ( https://github.com/xFluXioN/flux_garages )
 
+Jeżeli macie jakie kolwiek pytania piszcie u mnie na discord serwerze, nie na DM!
+
 Images:
 https://imgur.com/a/qo70vnk
 ________________________________________
