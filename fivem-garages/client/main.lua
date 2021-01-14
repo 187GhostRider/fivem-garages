@@ -27,7 +27,7 @@ AddEventHandler('esx:playerLoaded', function(xPlayer)
 end)
 
 -- Create Blips
-function creategaragesblip()
+Citizen.CreateThread(function()
 	for i=1, #Config.Garages do
 		if Config.Garages[i].Blip == true then
 			local blip = AddBlipForCoord(Config.Garages[i].Marker)
@@ -53,10 +53,7 @@ function creategaragesblip()
 		EndTextCommandSetBlipName(blip2)
 	end
 
-end
-
-RegisterCommand('garageblips', function(source, args, raw) creategaragesblip() end)
-
+end)
 
 Citizen.CreateThread(function()
 	while true do
